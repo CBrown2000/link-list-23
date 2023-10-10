@@ -45,38 +45,47 @@ a:hover {
 a:active {
     color: blueviolet;
 }
-a p{
+
+a p {
     background-color: rgba(100, 100, 100, 0);
     transition: .3s;
     column-count: 1;
 }
-a p:active{
+
+a p:active {
     background-color: lightcoral;
 }
 
 #container {
     width: 800px;
     height: auto;
-    background-image: url(../images/photo-bkg.jpg);
+    background-image: url(../images/newbackground.jpg);
     background-color: bisque;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
     position: relative;
     padding-bottom: 20px;
+    
+
 }
 
 #masthead {
     height: 100px;
-    background-image: url(../images/buddha.jpg);
+    background-image: url(../images/banner.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top;
+    background-size: auto;
     background-size: cover;
+    
+
 }
-#links-block{
+
+#links-block {
     width: 50%;
 }
-#transflower{
+
+#octopus {
     position: absolute;
     width: 200px;
     right: 0;
